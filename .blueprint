@@ -1,6 +1,6 @@
 created:
     - database/factories/PropertyFactory.php
-    - database/migrations/2024_10_17_141749_create_properties_table.php
+    - database/migrations/2024_10_17_143650_create_properties_table.php
     - app/Models/Property.php
 models:
     Post: { title: string, slug: string, content: 'json nullable', image_id: 'biginteger unsigned nullable', user_id: 'biginteger unsigned', is_published: boolean, published_at: 'timestamp nullable' }

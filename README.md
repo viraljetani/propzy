@@ -1,6 +1,6 @@
 # Propzy
-A PHP Laravel FilamentPHP saas for property owners and investors. Building in public.
-
+A Saas toolkit for property owners and investors. 
+Building in public using PHP Laravel & FilamentPHP.
 
 
 ## Planned Features
@@ -15,7 +15,6 @@ Make sure all dependencies have been installed before moving on:
 - [PHP](https://secure.php.net/manual/en/install.php) >= 8.2
 - [Composer](https://getcomposer.org/download/)
 - [Node.js](http://nodejs.org/) >= 18
-- [Yarn](https://yarnpkg.com/en/docs/install)
 
 ## Getting Started
 
