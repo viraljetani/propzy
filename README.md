@@ -1,19 +1,12 @@
-# Filament Starter
+# Propzy
+A PHP Laravel FilamentPHP saas for property owners and investors. Building in public.
 
-Here lives a beautiful starting point to quickly bootstrap your next [TALL stack](https://tallstack.dev/) application utilizing [Filament](https://filamentphp.com/) for the admin panel.
 
-![Screenshot](https://i.imgur.com/AxerbeO.png)
 
-## Features
+## Planned Features
 
-- 🚀 Quick, clean starting point with an example **Post** model and resource.
-- 🧑‍💻 Fully pre-configured and [customized](#plugins-used) Filament panel with best practices in place.
-- 🎨 Clean, minimally styled frontend powered by [Livewire](https://livewire.laravel.com/).
-- 💄 [TailwindCSS](https://tailwindcss.com/) and [Vite](https://vitejs.dev/) ready for immediate use.
-- 👷 Pre-bundled Livewire and [Alpine](https://alpinejs.dev/) for easy extendability.
-- ⚡️ SPA-ready in both Filament and the frontend.
-- 🔨 GitHub Actions workflows for [Pint](https://github.com/laravel/pint) with pre-configured Dependabot for dependencies.
-- 🔍️ Easy programmatic SEO using [romanzipp/laravel-seo](https://github.com/romanzipp/Laravel-SEO).
+- 🚀 Yield Calculator for Investment property.
+- 
 
 ## Requirements
 
@@ -29,8 +22,8 @@ Make sure all dependencies have been installed before moving on:
 Start by creating the project using Composer and configuring the `.env` file:
 
 ```sh
-composer create-project log1x/filament-starter:dev-main
-cd filament-starter
+composer create-project viraljetani/propzy
+cd propzy
 ```
 
 After `.env` is configured, you can proceed to migrate & seed the database:
@@ -46,13 +39,15 @@ Username: admin
 Password: admin
 ```
 
+The main user facing application will be at /app (AppPanelProvider.php)
+
 ### Build Assets
 
-The project assets are compiled using Vite. This can be done by installing the dependencies and running the build command with Yarn.
+The project assets are compiled using Vite. This can be done by installing the dependencies and running the build command with NPM.
 
 ```sh
-yarn install
-yarn build
+npm install
+npm build
 ```
 
 ## Plugins Used
@@ -71,7 +66,7 @@ The following [Filament plugins](https://filamentphp.com/plugins) come fully imp
 
 ## Bug Reports
 
-If you discover a bug in Filament Starter, please [open an issue](https://github.com/log1x/filament-starter/issues).
+If you discover a bug in Filament Starter, please [open an issue](https://github.com/viraljetani/propzy/issues).
 
 ## Contributing
 
@@ -79,4 +74,4 @@ Contributing whether it be through PRs, reporting an issue, or suggesting an ide
 
 ## License
 
-Filament Starter is provided under the [MIT License](LICENSE.md).
+Propzy is provided under the [MIT License](LICENSE.md).
