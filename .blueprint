@@ -1,0 +1,8 @@
+created:
+    - database/factories/PropertyFactory.php
+    - database/migrations/2024_10_17_141749_create_properties_table.php
+    - app/Models/Property.php
+models:
+    Post: { title: string, slug: string, content: 'json nullable', image_id: 'biginteger unsigned nullable', user_id: 'biginteger unsigned', is_published: boolean, published_at: 'timestamp nullable' }
+    User: { name: string, email: string, email_verified_at: 'timestamp nullable', password: string, remember_token: 'string:100 nullable' }
+    Property: { address: text }
